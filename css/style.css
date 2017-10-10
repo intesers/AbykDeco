@@ -66,6 +66,11 @@ a {
 
 }
 
+.subcontainer{
+	width: 80%;
+	margin: 0 auto;
+}
+
 a:hover{
 	text-decoration: underline;
 }
