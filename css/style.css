@@ -222,6 +222,43 @@ p{
 	flex: 0 0 40%;
 }
 
+footer{
+	background-color: #1e1d1d;
+	color: #fff;
+	text-align: center;
+} 
+
+
+
+.footer{
+	margin-top: 5%;
+}
+
+#heading {
+	color: #fff;
+	font-size: 2em;
+	padding-top: 2%;
+}
+
+.contact{
+	padding: 2%;
+}
+
+.contact p{
+	line-height: 2em;
+}
+
+.contact a{
+	color: #fff;
+}
+
+.contact a:hover{
+	color: #000;
+}
+
+#last{
+	padding-bottom: 1%;
+}
 
 
 
