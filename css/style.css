@@ -86,9 +86,9 @@ li{
 /**********Banner**********/
 .banner {
 	height: 100%;
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/1.jpeg);
 	background-size: cover;
-	background-position: center top;
+	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	display: flex;
@@ -121,6 +121,7 @@ li{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .heading h1 {
@@ -129,6 +130,7 @@ li{
 
 .heading h4 {
 	font-size: 2em;
+	flex-wrap: nowrap;
 }
 
 /*********second section********/
@@ -159,7 +161,7 @@ li{
 }
 
 p{
-	font-size: 1.1em;
+	font-size: 1.2em;
 	line-height: 1.5;
 }
 
@@ -179,7 +181,7 @@ p{
 
 /**********Fourth Section**********/ 
 .fourth{
-	height: 100%;
+	height: 80%;
 	background-image: url(../img/4.jpeg);
 	background-size: cover;
 	background-position: center top;
@@ -212,7 +214,73 @@ p{
 }
 
 .thumbs img{
-	width: 40%;
+	width: 100%;
+	padding: 0 !important;
+}
+
+.portfolio a{
+	flex: 0 0 40%;
+}
+
+
+
+
+
+/*************media queries**************/ 
+@media screen and (max-width: 768px) {
+
+.second, .third, .fourth{
+	justify-content: center;
+}
+
+.text{
+	width: 60%;
+	padding: 10%;
+}
+
+.thumbs{
+	flex-direction: column;
+	align-items: center;
+}
+
+.portfolio a{
+	flex: 0 0 100%;
+	padding-bottom: 2%;	
+}
+
+.animated {
+        /*CSS3 animation properties*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+
+        /*CSS3 transition properties*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+
+        /*CSS3 transform properties*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+
+}
+
+@media screen and (max-width: 450px) {
+
+.text{
+	padding: 5% 15%;
+}
+
+.third{
 	height: 100%;
+}
+
 }
 
